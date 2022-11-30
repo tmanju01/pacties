@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task 02</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.main{
+			height: 550px;
+			width: 75%;
+			/*background: hotpink;*/
+			/*background: linear-gradient(30deg,#873895 25%,#e74079);*/
+			background: linear-gradient(to right,#873895 25%,#e74079);
+			margin: 50px auto;
+			padding-top: 70px;
+			padding-left:300px;
+
+		}
+		.design{
+			height: 420px;
+			width: 55%;
+			background: white;
+			border-radius: 5px;
+
+		}
+		form{
+			text-align: center;
+		}
+		form h1{
+			color:black;
+			padding-top: 30px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		form input{
+			margin: 10px auto;
+			padding: 10px 25px;
+			width: 270px;
+			font-size: 15px;
+			border-radius: 5px;
+			/*border-style: none;*/
+			border:1px solid gray;
+			color: gray;
+		}
+		form  .s1{
+			width: 270px;
+			height: 30px;
+			background: white;
+			display: block;
+			/*padding: 10px 25px;*/
+			margin: 10px auto;
+			display: flex;
+			border: 1px solid gray;
+			border-radius: 5px;
+
+		
+		}
+		form .s1 .login, .singup{
+			height: 28px;
+			width: 135px;
+			background: white;
+			font-size: 20px;
+			border-style: none;
+			/*margin-right: 120px;*/
+			padding: 3px 20px;
+			font-weight: bold;
+		}
+		form .s1 .login{
+			/*background: linear-gradient();*/
+		  background: linear-gradient(to right,#873895 25%,#e74079);
+		  border-radius: 0 5px 5px 0;
+		  color: white;
+
+		}
+
+
+		
+		form .p1{
+			text-align: left;
+			margin-left: 50px;
+			color:hotpink;
+			margin-bottom: 13px;
+		}
+
+		form button{
+			width: 270px;
+			margin-top: 10px;
+			padding: 8px 50px;
+			font-size: 20px;
+			background: linear-gradient(to right,#873895 25%,#e74079);
+			border:1px solid gray;
+			color: white;
+			border-radius: 5px;
+		}
+		 form .p2{
+			margin-top: 30px;
+			margin-bottom: 10px;
+			font-size: 18px;
+		}
+		form .p2 span{
+			color: hotpink;
+			margin-left: 5px;
+		}
+		
+	</style>
+</head>
+<body>
+  <div class="main">
+  	<div class="design">
+       <form>
+       	<h1>Login Form</h1>
+       	<div class="s1">
+       	<span class="login">login</span>
+       	<span class="singup">singup</span>
+       	<!-- <span class="span1" >Login</span>
+       	<span class="span2">Singup</span> -->
+       	</div>
+       	<input type="Email" name="" value="Email Address"><br>
+       	<input type="password" name="" placeholder="Password"><br>
+       	<p class="p1">Forget Password</p>
+       	<button>Login</button>
+       	<p class="p2">Not a member?<span>singup now</span></p>
+       </form>
+  		
+  	</div>
+  	
+
+  </div>
+</body>
+</html>
